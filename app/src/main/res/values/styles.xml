@@ -7,4 +7,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="EditViewStyles" >
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#f9f9f9</item>
+        <item name="android:layout_margin">5sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="TextViewStyles" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#f9f9f9</item>
+    </style>
+
 </resources>

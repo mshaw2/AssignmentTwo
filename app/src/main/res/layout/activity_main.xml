@@ -23,47 +23,23 @@
 
             android:layout_weight="1">
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center_vertical"
-                android:textColor="#f9f9f9"
+                style="@style/TextViewStyles"
                 android:text="Enter Card Balance ($)"
                  />
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center_vertical"
-                android:textColor="#f9f9f9"
+                style="@style/TextViewStyles"
                 android:text="Enter Yearly Interest Rate (%)" />
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center_vertical"
-                android:textColor="#f9f9f9"
+                style="@style/TextViewStyles"
                 android:text="Enter Minimum Payment ($)" />
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center_vertical"
-                android:textColor="#f9f9f9"
+                style="@style/TextViewStyles"
                 android:text="Final Card Balance ($)" />
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center_vertical"
-                android:textColor="#f9f9f9"
+                style="@style/TextViewStyles"
                 android:text="Months Remaining" />
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center_vertical"
-                android:textColor="#f9f9f9"
+                style="@style/TextViewStyles"
                 android:text="Interest Paid Will Be ($)" />
         </LinearLayout>
         <LinearLayout
@@ -73,46 +49,22 @@
             android:orientation="vertical"
             android:layout_weight="1">
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#f9f9f9"
-                android:layout_margin="5sp"
-                android:layout_weight="1"
+                style="@style/EditViewStyles"
                  />
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#f9f9f9"
-                android:layout_margin="5sp"
-                android:layout_weight="1"
+                style="@style/EditViewStyles"
                 />
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#f9f9f9"
-                android:layout_weight="1"
-                android:layout_margin="5sp"
+                style="@style/EditViewStyles"
                 />
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#f9f9f9"
-                android:layout_weight="1"
-                android:layout_margin="5sp"
+                style="@style/EditViewStyles"
                 />
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#f9f9f9"
-                android:layout_margin="5sp"
-                android:layout_weight="1"
+                style="@style/EditViewStyles"
                 />
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#f9f9f9"
-                android:layout_margin="5sp"
-                android:layout_weight="1"
+                style="@style/EditViewStyles"
                 />
 
         </LinearLayout>
